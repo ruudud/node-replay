@@ -96,7 +96,7 @@ describe "Replay", ->
 
   describe "recording multiple of the same header", ->
 
-    before setup
+    #before setup
 
     before ->
       Replay.mode = "record"

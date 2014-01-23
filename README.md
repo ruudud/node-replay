@@ -1,4 +1,13 @@
 # Node Replay
+
+##
+
+**Changes in this fork:**
+
+ - Recorded fixtures are named using the following pattern:
+   `METHOD_full_path_STATUSCODE_timestamp`
+ - Support dynamically switching fixures path by calling
+   `replay.setFixturesDir('newDir/')`
    
 
 ### When API testing slows you down: record and replay HTTP responses like a boss
